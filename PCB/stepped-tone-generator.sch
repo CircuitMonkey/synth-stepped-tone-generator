@@ -236,12 +236,12 @@
 <packages>
 <package name="DIP-14" urn="urn:adsk.eagle:footprint:8032545/2" locally_modified="yes" library_version="21" library_locally_modified="yes">
 <description>DIP-28  28-pin DIP Package THD</description>
-<wire x1="-3.7" y1="8.51" x2="-1" y2="8.51" width="0.127" layer="51"/>
+<wire x1="-3.048" y1="8.51" x2="-1" y2="8.51" width="0.127" layer="51"/>
 <wire x1="-1" y1="8.51" x2="1" y2="8.51" width="0.127" layer="51" curve="166.67643"/>
-<wire x1="1" y1="8.51" x2="3.7" y2="8.51" width="0.127" layer="51"/>
-<wire x1="3.7" y1="8.51" x2="3.7" y2="-8.51" width="0.127" layer="51"/>
-<wire x1="3.7" y1="-8.51" x2="-3.7" y2="-8.51" width="0.127" layer="51"/>
-<wire x1="-3.7" y1="-8.51" x2="-3.7" y2="8.51" width="0.127" layer="51"/>
+<wire x1="1" y1="8.51" x2="3.048" y2="8.51" width="0.127" layer="51"/>
+<wire x1="3.048" y1="8.51" x2="3.048" y2="-8.51" width="0.127" layer="51"/>
+<wire x1="3.048" y1="-8.51" x2="-3.048" y2="-8.51" width="0.127" layer="51"/>
+<wire x1="-3.048" y1="-8.51" x2="-3.048" y2="8.51" width="0.127" layer="51"/>
 <wire x1="-1" y1="8.51" x2="1" y2="8.51" width="0.127" layer="51"/>
 <wire x1="-3.048" y1="8.636" x2="-1.27" y2="8.636" width="0.4064" layer="21"/>
 <wire x1="-1.27" y1="8.636" x2="1.27" y2="8.636" width="0.4064" layer="21" curve="154.639233"/>
@@ -249,46 +249,46 @@
 <wire x1="3.048" y1="8.636" x2="3.048" y2="-8.636" width="0.4064" layer="21"/>
 <wire x1="3.048" y1="-8.636" x2="-3.048" y2="-8.636" width="0.4064" layer="21"/>
 <wire x1="-3.048" y1="-8.636" x2="-3.048" y2="8.636" width="0.4064" layer="21"/>
-<rectangle x1="3.7" y1="-8.32" x2="5.08" y2="-6.92" layer="51"/>
-<rectangle x1="3.7" y1="6.92" x2="5.08" y2="8.32" layer="51"/>
-<rectangle x1="3.7" y1="4.38" x2="5.08" y2="5.78" layer="51"/>
-<rectangle x1="3.7" y1="1.84" x2="5.08" y2="3.24" layer="51"/>
-<rectangle x1="3.7" y1="-0.7" x2="5.08" y2="0.7" layer="51"/>
-<rectangle x1="3.7" y1="-3.24" x2="5.08" y2="-1.84" layer="51"/>
-<rectangle x1="3.7" y1="-5.78" x2="5.08" y2="-4.38" layer="51"/>
-<rectangle x1="-5.08" y1="6.92" x2="-3.7" y2="8.32" layer="51" rot="R180"/>
-<rectangle x1="-5.08" y1="-8.32" x2="-3.7" y2="-6.92" layer="51" rot="R180"/>
-<rectangle x1="-5.08" y1="-5.78" x2="-3.7" y2="-4.38" layer="51" rot="R180"/>
-<rectangle x1="-5.08" y1="-3.24" x2="-3.7" y2="-1.84" layer="51" rot="R180"/>
-<rectangle x1="-5.08" y1="-0.7" x2="-3.7" y2="0.7" layer="51" rot="R180"/>
-<rectangle x1="-5.08" y1="1.84" x2="-3.7" y2="3.24" layer="51" rot="R180"/>
-<rectangle x1="-5.08" y1="4.38" x2="-3.7" y2="5.78" layer="51" rot="R180"/>
-<pad name="1" x="-5.08" y="7.62" drill="1" shape="long"/>
-<pad name="2" x="-5.08" y="5.08" drill="1" shape="long"/>
-<pad name="3" x="-5.08" y="2.54" drill="1" shape="long"/>
-<pad name="4" x="-5.08" y="0" drill="1" shape="long"/>
-<pad name="5" x="-5.08" y="-2.54" drill="1" shape="long"/>
-<pad name="6" x="-5.08" y="-5.08" drill="1" shape="long"/>
-<pad name="7" x="-5.08" y="-7.62" drill="1" shape="long"/>
-<pad name="8" x="5.08" y="-7.62" drill="1" shape="long"/>
-<pad name="9" x="5.08" y="-5.08" drill="1" shape="long"/>
-<pad name="10" x="5.08" y="-2.54" drill="1" shape="long"/>
-<pad name="11" x="5.08" y="0" drill="1" shape="long"/>
-<pad name="12" x="5.08" y="2.54" drill="1" shape="long"/>
-<pad name="13" x="5.08" y="5.08" drill="1" shape="long"/>
-<pad name="14" x="5.08" y="7.62" drill="1" shape="long"/>
+<rectangle x1="3.048" y1="6.92" x2="3.81" y2="8.32" layer="51"/>
+<pad name="1" x="-3.81" y="7.62" drill="1" shape="long"/>
+<pad name="2" x="-3.81" y="5.08" drill="1" shape="long"/>
+<pad name="3" x="-3.81" y="2.54" drill="1" shape="long"/>
+<pad name="4" x="-3.81" y="0" drill="1" shape="long"/>
+<pad name="5" x="-3.81" y="-2.54" drill="1" shape="long"/>
+<pad name="6" x="-3.81" y="-5.08" drill="1" shape="long"/>
+<pad name="7" x="-3.81" y="-7.62" drill="1" shape="long"/>
+<pad name="8" x="3.81" y="-7.62" drill="1" shape="long"/>
+<pad name="9" x="3.81" y="-5.08" drill="1" shape="long"/>
+<pad name="10" x="3.81" y="-2.54" drill="1" shape="long"/>
+<pad name="11" x="3.81" y="0" drill="1" shape="long"/>
+<pad name="12" x="3.81" y="2.54" drill="1" shape="long"/>
+<pad name="13" x="3.81" y="5.08" drill="1" shape="long"/>
+<pad name="14" x="3.81" y="7.62" drill="1" shape="long"/>
 <text x="0" y="0" size="1.27" layer="21" font="vector" rot="SR270" align="center">&gt;VALUE</text>
 <text x="0" y="10.16" size="1.778" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 <text x="1.778" y="0" size="1.27" layer="27" font="vector" rot="R90" align="center">&gt;VALUE</text>
+<rectangle x1="3.048" y1="4.38" x2="3.81" y2="5.78" layer="51"/>
+<rectangle x1="3.048" y1="1.84" x2="3.81" y2="3.24" layer="51"/>
+<rectangle x1="3.048" y1="-0.7" x2="3.81" y2="0.7" layer="51"/>
+<rectangle x1="3.048" y1="-3.24" x2="3.81" y2="-1.84" layer="51"/>
+<rectangle x1="3.048" y1="-5.78" x2="3.81" y2="-4.38" layer="51"/>
+<rectangle x1="3.048" y1="-8.32" x2="3.81" y2="-6.92" layer="51"/>
+<rectangle x1="-3.81" y1="-8.32" x2="-3.048" y2="-6.92" layer="51" rot="R180"/>
+<rectangle x1="-3.81" y1="-5.78" x2="-3.048" y2="-4.38" layer="51" rot="R180"/>
+<rectangle x1="-3.81" y1="-3.24" x2="-3.048" y2="-1.84" layer="51" rot="R180"/>
+<rectangle x1="-3.81" y1="-0.7" x2="-3.048" y2="0.7" layer="51" rot="R180"/>
+<rectangle x1="-3.81" y1="1.84" x2="-3.048" y2="3.24" layer="51" rot="R180"/>
+<rectangle x1="-3.81" y1="4.38" x2="-3.048" y2="5.78" layer="51" rot="R180"/>
+<rectangle x1="-3.81" y1="6.92" x2="-3.048" y2="8.32" layer="51" rot="R180"/>
 </package>
 <package name="DIP-16" urn="urn:adsk.eagle:footprint:26222132/1" locally_modified="yes" library_version="21" library_locally_modified="yes">
 <description>DIP-16</description>
-<wire x1="-3.7" y1="9.78" x2="-1" y2="9.78" width="0.127" layer="51"/>
+<wire x1="-3.048" y1="9.78" x2="-1" y2="9.78" width="0.127" layer="51"/>
 <wire x1="-1" y1="9.78" x2="1" y2="9.78" width="0.127" layer="51" curve="166.67643"/>
-<wire x1="1" y1="9.78" x2="3.7" y2="9.78" width="0.127" layer="51"/>
-<wire x1="3.7" y1="9.78" x2="3.7" y2="-9.78" width="0.127" layer="51"/>
-<wire x1="3.7" y1="-9.78" x2="-3.7" y2="-9.78" width="0.127" layer="51"/>
-<wire x1="-3.7" y1="-9.78" x2="-3.7" y2="9.78" width="0.127" layer="51"/>
+<wire x1="1" y1="9.78" x2="3.048" y2="9.78" width="0.127" layer="51"/>
+<wire x1="3.048" y1="9.78" x2="3.048" y2="-9.78" width="0.127" layer="51"/>
+<wire x1="3.048" y1="-9.78" x2="-3.048" y2="-9.78" width="0.127" layer="51"/>
+<wire x1="-3.048" y1="-9.78" x2="-3.048" y2="9.78" width="0.127" layer="51"/>
 <wire x1="-1" y1="9.78" x2="1" y2="9.78" width="0.127" layer="51"/>
 <wire x1="-3.048" y1="9.906" x2="-1.27" y2="9.906" width="0.4064" layer="21"/>
 <wire x1="-1.27" y1="9.906" x2="1.27" y2="9.906" width="0.4064" layer="21" curve="154.639233"/>
@@ -296,41 +296,41 @@
 <wire x1="3.048" y1="9.906" x2="3.048" y2="-9.906" width="0.4064" layer="21"/>
 <wire x1="3.048" y1="-9.906" x2="-3.048" y2="-9.906" width="0.4064" layer="21"/>
 <wire x1="-3.048" y1="-9.906" x2="-3.048" y2="9.906" width="0.4064" layer="21"/>
-<rectangle x1="3.7" y1="-7.05" x2="5.08" y2="-5.65" layer="51"/>
-<rectangle x1="3.7" y1="8.19" x2="5.08" y2="9.59" layer="51"/>
-<rectangle x1="3.7" y1="5.65" x2="5.08" y2="7.05" layer="51"/>
-<rectangle x1="3.7" y1="3.11" x2="5.08" y2="4.51" layer="51"/>
-<rectangle x1="3.7" y1="0.57" x2="5.08" y2="1.97" layer="51"/>
-<rectangle x1="3.7" y1="-1.97" x2="5.08" y2="-0.57" layer="51"/>
-<rectangle x1="3.7" y1="-4.51" x2="5.08" y2="-3.11" layer="51"/>
-<rectangle x1="-5.08" y1="8.19" x2="-3.7" y2="9.59" layer="51" rot="R180"/>
-<rectangle x1="-5.08" y1="-7.05" x2="-3.7" y2="-5.65" layer="51" rot="R180"/>
-<rectangle x1="-5.08" y1="-4.51" x2="-3.7" y2="-3.11" layer="51" rot="R180"/>
-<rectangle x1="-5.08" y1="-1.97" x2="-3.7" y2="-0.57" layer="51" rot="R180"/>
-<rectangle x1="-5.08" y1="0.57" x2="-3.7" y2="1.97" layer="51" rot="R180"/>
-<rectangle x1="-5.08" y1="3.11" x2="-3.7" y2="4.51" layer="51" rot="R180"/>
-<rectangle x1="-5.08" y1="5.65" x2="-3.7" y2="7.05" layer="51" rot="R180"/>
-<rectangle x1="-5.08" y1="-9.59" x2="-3.7" y2="-8.19" layer="51" rot="R180"/>
-<rectangle x1="3.7" y1="-9.59" x2="5.08" y2="-8.19" layer="51"/>
-<pad name="1" x="-5.08" y="8.89" drill="1" shape="long"/>
-<pad name="2" x="-5.08" y="6.35" drill="1" shape="long"/>
-<pad name="3" x="-5.08" y="3.81" drill="1" shape="long"/>
-<pad name="4" x="-5.08" y="1.27" drill="1" shape="long"/>
-<pad name="5" x="-5.08" y="-1.27" drill="1" shape="long"/>
-<pad name="6" x="-5.08" y="-3.81" drill="1" shape="long"/>
-<pad name="7" x="-5.08" y="-6.35" drill="1" shape="long"/>
-<pad name="8" x="-5.08" y="-8.89" drill="1" shape="long" rot="R180"/>
-<pad name="9" x="5.08" y="-8.89" drill="1" shape="long"/>
-<pad name="10" x="5.08" y="-6.35" drill="1" shape="long"/>
-<pad name="11" x="5.08" y="-3.81" drill="1" shape="long"/>
-<pad name="12" x="5.08" y="-1.27" drill="1" shape="long"/>
-<pad name="13" x="5.08" y="1.27" drill="1" shape="long"/>
-<pad name="14" x="5.08" y="3.81" drill="1" shape="long"/>
-<pad name="15" x="5.08" y="6.35" drill="1" shape="long"/>
-<pad name="16" x="5.08" y="8.89" drill="1" shape="long"/>
+<rectangle x1="3.048" y1="8.19" x2="3.81" y2="9.59" layer="51"/>
+<pad name="1" x="-3.81" y="8.89" drill="1" shape="long"/>
+<pad name="2" x="-3.81" y="6.35" drill="1" shape="long"/>
+<pad name="3" x="-3.81" y="3.81" drill="1" shape="long"/>
+<pad name="4" x="-3.81" y="1.27" drill="1" shape="long"/>
+<pad name="5" x="-3.81" y="-1.27" drill="1" shape="long"/>
+<pad name="6" x="-3.81" y="-3.81" drill="1" shape="long"/>
+<pad name="7" x="-3.81" y="-6.35" drill="1" shape="long"/>
+<pad name="8" x="-3.81" y="-8.89" drill="1" shape="long" rot="R180"/>
+<pad name="9" x="3.81" y="-8.89" drill="1" shape="long"/>
+<pad name="10" x="3.81" y="-6.35" drill="1" shape="long"/>
+<pad name="11" x="3.81" y="-3.81" drill="1" shape="long"/>
+<pad name="12" x="3.81" y="-1.27" drill="1" shape="long"/>
+<pad name="13" x="3.81" y="1.27" drill="1" shape="long"/>
+<pad name="14" x="3.81" y="3.81" drill="1" shape="long"/>
+<pad name="15" x="3.81" y="6.35" drill="1" shape="long"/>
+<pad name="16" x="3.81" y="8.89" drill="1" shape="long"/>
 <text x="0" y="0" size="1.27" layer="21" font="vector" rot="SR270" align="center">&gt;VALUE</text>
 <text x="0" y="11.684" size="1.778" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 <text x="1.778" y="0" size="1.27" layer="27" font="vector" rot="R90" align="center">&gt;VALUE</text>
+<rectangle x1="3.048" y1="5.65" x2="3.81" y2="7.05" layer="51"/>
+<rectangle x1="3.048" y1="3.11" x2="3.81" y2="4.51" layer="51"/>
+<rectangle x1="3.048" y1="0.57" x2="3.81" y2="1.97" layer="51"/>
+<rectangle x1="3.048" y1="-1.97" x2="3.81" y2="-0.57" layer="51"/>
+<rectangle x1="3.048" y1="-4.51" x2="3.81" y2="-3.11" layer="51"/>
+<rectangle x1="3.048" y1="-7.05" x2="3.81" y2="-5.65" layer="51"/>
+<rectangle x1="3.048" y1="-9.59" x2="3.81" y2="-8.19" layer="51"/>
+<rectangle x1="-3.81" y1="-9.59" x2="-3.048" y2="-8.19" layer="51" rot="R180"/>
+<rectangle x1="-3.81" y1="-7.05" x2="-3.048" y2="-5.65" layer="51" rot="R180"/>
+<rectangle x1="-3.81" y1="-4.51" x2="-3.048" y2="-3.11" layer="51" rot="R180"/>
+<rectangle x1="-3.81" y1="-1.97" x2="-3.048" y2="-0.57" layer="51" rot="R180"/>
+<rectangle x1="-3.81" y1="0.57" x2="-3.048" y2="1.97" layer="51" rot="R180"/>
+<rectangle x1="-3.81" y1="3.11" x2="-3.048" y2="4.51" layer="51" rot="R180"/>
+<rectangle x1="-3.81" y1="5.65" x2="-3.048" y2="7.05" layer="51" rot="R180"/>
+<rectangle x1="-3.81" y1="8.19" x2="-3.048" y2="9.59" layer="51" rot="R180"/>
 </package>
 <package name="SOIC8_FLASH" urn="urn:adsk.eagle:footprint:14108952/1" library_version="21">
 <description>&lt;P&gt;&lt;B&gt;8-pins SOIC Dual Footprint, 0.05" pitch, (5.4 or 4)x5mm body&lt;/B&gt;&lt;/P&gt;
@@ -443,12 +443,12 @@
 </package>
 <package name="DIP-08" urn="urn:adsk.eagle:footprint:26221892/2" locally_modified="yes" library_version="21" library_locally_modified="yes">
 <description>SO-8 Package</description>
-<wire x1="-3.7" y1="4.7" x2="-1" y2="4.7" width="0.127" layer="51"/>
+<wire x1="-3.048" y1="4.7" x2="-1" y2="4.7" width="0.127" layer="51"/>
 <wire x1="-1" y1="4.7" x2="1" y2="4.7" width="0.127" layer="51" curve="166.67643"/>
-<wire x1="1" y1="4.7" x2="3.7" y2="4.7" width="0.127" layer="51"/>
-<wire x1="3.7" y1="4.7" x2="3.7" y2="-4.7" width="0.127" layer="51"/>
-<wire x1="3.7" y1="-4.7" x2="-3.7" y2="-4.7" width="0.127" layer="51"/>
-<wire x1="-3.7" y1="-4.7" x2="-3.7" y2="4.7" width="0.127" layer="51"/>
+<wire x1="1" y1="4.7" x2="3.048" y2="4.7" width="0.127" layer="51"/>
+<wire x1="3.048" y1="4.7" x2="3.048" y2="-4.7" width="0.127" layer="51"/>
+<wire x1="3.048" y1="-4.7" x2="-3.048" y2="-4.7" width="0.127" layer="51"/>
+<wire x1="-3.048" y1="-4.7" x2="-3.048" y2="4.7" width="0.127" layer="51"/>
 <wire x1="-1" y1="4.7" x2="1" y2="4.7" width="0.127" layer="51"/>
 <wire x1="-3.048" y1="4.826" x2="-1.27" y2="4.826" width="0.4064" layer="21"/>
 <wire x1="-1.27" y1="4.826" x2="1.27" y2="4.826" width="0.4064" layer="21" curve="154.639233"/>
@@ -456,25 +456,25 @@
 <wire x1="3.048" y1="4.826" x2="3.048" y2="-4.826" width="0.4064" layer="21"/>
 <wire x1="3.048" y1="-4.826" x2="-3.048" y2="-4.826" width="0.4064" layer="21"/>
 <wire x1="-3.048" y1="-4.826" x2="-3.048" y2="4.826" width="0.4064" layer="21"/>
-<rectangle x1="3.7" y1="3.11" x2="5.08" y2="4.51" layer="51"/>
-<rectangle x1="3.7" y1="0.57" x2="5.08" y2="1.97" layer="51"/>
-<rectangle x1="3.7" y1="-1.97" x2="5.08" y2="-0.57" layer="51"/>
-<rectangle x1="3.7" y1="-4.51" x2="5.08" y2="-3.11" layer="51"/>
-<rectangle x1="-5.08" y1="3.11" x2="-3.7" y2="4.51" layer="51" rot="R180"/>
-<rectangle x1="-5.08" y1="-4.51" x2="-3.7" y2="-3.11" layer="51" rot="R180"/>
-<rectangle x1="-5.08" y1="-1.97" x2="-3.7" y2="-0.57" layer="51" rot="R180"/>
-<rectangle x1="-5.08" y1="0.57" x2="-3.7" y2="1.97" layer="51" rot="R180"/>
-<pad name="1" x="-5.08" y="3.81" drill="1" shape="long"/>
-<pad name="2" x="-5.08" y="1.27" drill="1" shape="long"/>
-<pad name="3" x="-5.08" y="-1.27" drill="1" shape="long"/>
-<pad name="4" x="-5.08" y="-3.81" drill="1" shape="long"/>
-<pad name="5" x="5.08" y="-3.81" drill="1" shape="long"/>
-<pad name="6" x="5.08" y="-1.27" drill="1" shape="long"/>
-<pad name="7" x="5.08" y="1.27" drill="1" shape="long"/>
-<pad name="8" x="5.08" y="3.81" drill="1" shape="long"/>
+<rectangle x1="3.048" y1="3.11" x2="4.064" y2="4.51" layer="51"/>
+<pad name="1" x="-3.81" y="3.81" drill="1" shape="long"/>
+<pad name="2" x="-3.81" y="1.27" drill="1" shape="long"/>
+<pad name="3" x="-3.81" y="-1.27" drill="1" shape="long"/>
+<pad name="4" x="-3.81" y="-3.81" drill="1" shape="long"/>
+<pad name="5" x="3.81" y="-3.81" drill="1" shape="long"/>
+<pad name="6" x="3.81" y="-1.27" drill="1" shape="long"/>
+<pad name="7" x="3.81" y="1.27" drill="1" shape="long"/>
+<pad name="8" x="3.81" y="3.81" drill="1" shape="long"/>
 <text x="1.778" y="0" size="1.27" layer="27" font="vector" rot="R90" align="center">&gt;VALUE</text>
 <text x="0" y="6.35" size="1.778" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="25" font="vector" rot="SR270" align="center">&gt;VALUE</text>
+<text x="0" y="0" size="1.27" layer="21" font="vector" rot="SR270" align="center">&gt;VALUE</text>
+<rectangle x1="3.048" y1="0.57" x2="4.064" y2="1.97" layer="51"/>
+<rectangle x1="3.048" y1="-1.97" x2="4.064" y2="-0.57" layer="51"/>
+<rectangle x1="3.048" y1="-4.51" x2="4.064" y2="-3.11" layer="51"/>
+<rectangle x1="-4.064" y1="-4.51" x2="-3.048" y2="-3.11" layer="51" rot="R180"/>
+<rectangle x1="-4.064" y1="-1.97" x2="-3.048" y2="-0.57" layer="51" rot="R180"/>
+<rectangle x1="-4.064" y1="0.57" x2="-3.048" y2="1.97" layer="51" rot="R180"/>
+<rectangle x1="-4.064" y1="3.11" x2="-3.048" y2="4.51" layer="51" rot="R180"/>
 </package>
 </packages>
 <packages3d>
@@ -1036,7 +1036,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="556" urn="urn:adsk.eagle:component:26221895/3" prefix="U" uservalue="yes" library_version="21" library_locally_modified="yes">
+<deviceset name="556" urn="urn:adsk.eagle:component:26221895/3" locally_modified="yes" prefix="U" uservalue="yes" library_version="21" library_locally_modified="yes">
 <description>556 Dual Timer</description>
 <gates>
 <gate name="G$1" symbol="556" x="2.54" y="0"/>
@@ -1064,13 +1064,16 @@
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="COST" value="0.35" constant="no"/>
+<attribute name="MFR" value="Tayda" constant="no"/>
+<attribute name="MPN" value="A-040" constant="no"/>
 <attribute name="VALUE" value="NE556N" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CD4017" urn="urn:adsk.eagle:component:26222134/2" prefix="U" uservalue="yes" library_version="21" library_locally_modified="yes">
+<deviceset name="CD4017" urn="urn:adsk.eagle:component:26222134/2" locally_modified="yes" prefix="U" uservalue="yes" library_version="21" library_locally_modified="yes">
 <description>CD4017 Decade Counter</description>
 <gates>
 <gate name="G$1" symbol="DECADE_COUNTER" x="0" y="7.62"/>
@@ -1100,6 +1103,9 @@
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="COST" value="0.30" constant="no"/>
+<attribute name="MFR" value="Tayda" constant="no"/>
+<attribute name="MPN" value="A-020" constant="no"/>
 <attribute name="VALUE" value="CD4017BE" constant="no"/>
 </technology>
 </technologies>
@@ -1190,6 +1196,9 @@
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="COST" value="0.15" constant="no"/>
+<attribute name="MFR" value="Tayda" constant="no"/>
+<attribute name="MPN" value="A-249" constant="no"/>
 <attribute name="VALUE" value="NE555P" constant="no"/>
 </technology>
 </technologies>
@@ -1681,8 +1690,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="-7" y="-2.78" size="2.54" layer="25" ratio="15" rot="R90">&gt;NAME</text>
 <text x="8.24" y="0.06" size="0.8128" layer="27" rot="R90">&gt;VALUE</text>
 </package>
-<package name="ALPS_RK09D113" urn="urn:adsk.eagle:footprint:9396883/1" library_version="28">
-<description>Alps RK09 Vertical Pot</description>
+<package name="ALPS_RK09D113" urn="urn:adsk.eagle:footprint:9396883/2" locally_modified="yes" library_version="35" library_locally_modified="yes">
+<description>Alps RK09 Vertical Pot / Alpha RV09</description>
 <wire x1="-4.9" y1="5.5" x2="4.9" y2="5.5" width="0.01" layer="51"/>
 <wire x1="4.9" y1="5.5" x2="4.9" y2="-6" width="0.01" layer="51"/>
 <wire x1="4.9" y1="-6" x2="-4.9" y2="-6" width="0.01" layer="51"/>
@@ -1700,9 +1709,47 @@ In this library the device names are the same as the pin names of the symbols, t
 <rectangle x1="4.1" y1="-1" x2="4.9" y2="1" layer="51"/>
 <rectangle x1="-4.9" y1="-1" x2="-4.1" y2="1" layer="51"/>
 <circle x="0" y="0" radius="3" width="0.01" layer="51"/>
-<pad name="1" x="-2.5" y="-7" drill="1" shape="square"/>
-<pad name="2" x="0" y="-7" drill="1"/>
-<pad name="3" x="2.5" y="-7" drill="1"/>
+<pad name="1" x="-2.5" y="-7" drill="1.1" shape="square"/>
+<pad name="2" x="0" y="-7" drill="1.1"/>
+<pad name="3" x="2.5" y="-7" drill="1.1"/>
+<pad name="MT1C" x="-4.6" y="0.7" drill="1.2"/>
+<pad name="MT1A" x="-4.6" y="-0.7" drill="1.2"/>
+<pad name="MT1B" x="-4.6" y="0" drill="1.2"/>
+<pad name="MT2C" x="4.6" y="0.7" drill="1.2"/>
+<pad name="MT2B" x="4.6" y="0" drill="1.2"/>
+<pad name="MT2A" x="4.6" y="-0.7" drill="1.2"/>
+<text x="0" y="6.858" size="1.27" layer="25" ratio="15" align="center">&gt;NAME</text>
+<text x="0" y="-4.445" size="1.27" layer="21" rot="SR0" align="center">&gt;VALUE</text>
+</package>
+<package name="ALPS_RK09X111" urn="urn:adsk.eagle:footprint:26674355/1" library_version="35" library_locally_modified="yes">
+<description>Alps RK09*111   Potentiometer, Right Angle</description>
+<wire x1="-4.9" y1="2.4" x2="-4.1" y2="2.4" width="0.01" layer="51"/>
+<wire x1="-4.1" y1="2.4" x2="-4.1" y2="-2" width="0.01" layer="51"/>
+<wire x1="-4.1" y1="-2" x2="4.1" y2="-2" width="0.01" layer="51"/>
+<wire x1="4.1" y1="-2" x2="4.1" y2="2.4" width="0.01" layer="51"/>
+<wire x1="4.1" y1="2.4" x2="4.9" y2="2.4" width="0.01" layer="51"/>
+<wire x1="4.9" y1="2.4" x2="4.9" y2="-5.9" width="0.01" layer="51"/>
+<wire x1="4.9" y1="-5.9" x2="-4.9" y2="-5.9" width="0.01" layer="51"/>
+<wire x1="-4.9" y1="-5.9" x2="-4.9" y2="2.4" width="0.01" layer="51"/>
+<wire x1="-4.9" y1="1.9" x2="-4.9" y2="2.4" width="0.4064" layer="21"/>
+<wire x1="-4.9" y1="2.4" x2="4.9" y2="2.4" width="0.4064" layer="21"/>
+<wire x1="4.9" y1="2.4" x2="4.9" y2="1.9" width="0.4064" layer="21"/>
+<wire x1="4.9" y1="-1.9" x2="4.9" y2="-5.9" width="0.4064" layer="21"/>
+<wire x1="4.9" y1="-5.9" x2="-4.9" y2="-5.9" width="0.4064" layer="21"/>
+<wire x1="-4.9" y1="-5.9" x2="-4.9" y2="-1.9" width="0.4064" layer="21"/>
+<wire x1="-3" y1="-15" x2="-3" y2="-20" width="0.127" layer="51"/>
+<wire x1="3" y1="-20" x2="3" y2="-15" width="0.127" layer="51"/>
+<wire x1="-3" y1="-20" x2="3" y2="-20" width="0.127" layer="51"/>
+<rectangle x1="-0.4" y1="-3.6" x2="0.4" y2="-3" layer="51"/>
+<rectangle x1="2.1" y1="-3.6" x2="2.9" y2="-3" layer="51"/>
+<rectangle x1="-2.9" y1="-3.6" x2="-2.1" y2="-3" layer="51"/>
+<rectangle x1="4.1" y1="-1" x2="4.9" y2="1" layer="51"/>
+<rectangle x1="-4.9" y1="-1" x2="-4.1" y2="1" layer="51"/>
+<rectangle x1="-4.9" y1="-6.8" x2="4.9" y2="-5.9" layer="51"/>
+<rectangle x1="-3" y1="-15" x2="3" y2="-6.8" layer="51"/>
+<pad name="1" x="-2.5" y="-3.3" drill="1" shape="square"/>
+<pad name="2" x="0" y="-3.3" drill="1"/>
+<pad name="3" x="2.5" y="-3.3" drill="1"/>
 <pad name="MT1C" x="-4.5" y="0.7" drill="1.1"/>
 <pad name="MT1A" x="-4.5" y="-0.7" drill="1.1"/>
 <pad name="MT1B" x="-4.5" y="0" drill="1.1"/>
@@ -1824,10 +1871,16 @@ In this library the device names are the same as the pin names of the symbols, t
 <packageinstance name="POT_BOURNS_PTV09_DUAL"/>
 </packageinstances>
 </package3d>
-<package3d name="ALPS_RK09D113" urn="urn:adsk.eagle:package:9396884/2" type="model" library_version="28">
-<description>Alps RK09 Vertical Pot</description>
+<package3d name="ALPS_RK09D113" urn="urn:adsk.eagle:package:9396884/3" type="model" library_version="35" library_locally_modified="yes">
+<description>Alps RK09 Vertical Pot / Alpha RV09</description>
 <packageinstances>
 <packageinstance name="ALPS_RK09D113"/>
+</packageinstances>
+</package3d>
+<package3d name="ALPS_RK09X111" urn="urn:adsk.eagle:package:26674356/2" type="model" library_version="35" library_locally_modified="yes">
+<description>Alps RK09*111   Potentiometer, Right Angle</description>
+<packageinstances>
+<packageinstance name="ALPS_RK09X111"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -2018,7 +2071,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 </devices>
 </deviceset>
-<deviceset name="CAPACITOR" urn="urn:adsk.eagle:component:4192997/8" prefix="C" uservalue="yes" library_version="27">
+<deviceset name="CAPACITOR" urn="urn:adsk.eagle:component:4192997/9" prefix="C" uservalue="yes" library_version="35" library_locally_modified="yes">
 <description>Capacitor</description>
 <gates>
 <gate name="G$1" symbol="CAP-NP" x="0" y="0"/>
@@ -2081,7 +2134,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <package3dinstance package3d_urn="urn:adsk.eagle:package:4192947/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFR" value="Tayda" constant="no"/>
+<attribute name="MPN" value="A-550" constant="no"/>
+<attribute name="VALUE" value="0.01uF" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="THD_2.5MM" package="CAP_CER_THD_2.5MM">
@@ -2122,7 +2179,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </device>
 </devices>
 </deviceset>
-<deviceset name="POT" urn="urn:adsk.eagle:component:4192994/3" prefix="R" uservalue="yes" library_version="28">
+<deviceset name="POT" urn="urn:adsk.eagle:component:4192994/5" prefix="R" uservalue="yes" library_version="35" library_locally_modified="yes">
 <description>Potentiometer with solder mounts</description>
 <gates>
 <gate name="POT" symbol="POT" x="0" y="-5.08"/>
@@ -2168,7 +2225,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <connect gate="POT" pin="3" pad="3"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:9396884/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:9396884/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -2177,6 +2234,21 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="MPN" value="RK09D1130C1B" constant="no"/>
 <attribute name="VALUE" value="10K" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="RK09?111" package="ALPS_RK09X111">
+<connects>
+<connect gate="G$3" pin="GND@MT1" pad="MT1A MT1B MT1C"/>
+<connect gate="G$3" pin="GND@MT2" pad="MT2A MT2B MT2C"/>
+<connect gate="POT" pin="1" pad="1"/>
+<connect gate="POT" pin="2" pad="2"/>
+<connect gate="POT" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26674356/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -2517,10 +2589,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="0" y="1.2" size="0.6096" layer="21" font="vector" align="center">&gt;NAME</text>
 <text x="0.1" y="-1" size="0.3048" layer="27" font="vector" align="center">&gt;VALUE</text>
 </package>
-<package name="DO-35(THD)" urn="urn:adsk.eagle:footprint:26239318/3" library_version="14">
+<package name="DO-35(THD)" urn="urn:adsk.eagle:footprint:26239318/3" locally_modified="yes" library_version="14" library_locally_modified="yes">
 <description>DIODE THD DO-35</description>
-<pad name="K" x="-3.5" y="0" drill="0.65"/>
-<pad name="A" x="3.5" y="0" drill="0.65"/>
+<pad name="K" x="-3.5" y="0" drill="0.762"/>
+<pad name="A" x="3.5" y="0" drill="0.762"/>
 <wire x1="-2" y1="0.9" x2="2" y2="0.9" width="0.127" layer="51"/>
 <wire x1="2" y1="0.9" x2="2" y2="-0.9" width="0.127" layer="51"/>
 <wire x1="2" y1="-0.9" x2="-2" y2="-0.9" width="0.127" layer="51"/>
@@ -2576,7 +2648,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <packageinstance name="SOD-323"/>
 </packageinstances>
 </package3d>
-<package3d name="DO-35(THD)" urn="urn:adsk.eagle:package:26239319/4" type="model" library_version="14">
+<package3d name="DO-35(THD)" urn="urn:adsk.eagle:package:26239319/4" type="model" library_version="14" library_locally_modified="yes">
 <description>DIODE THD DO-35</description>
 <packageinstances>
 <packageinstance name="DO-35(THD)"/>
@@ -2601,7 +2673,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="DIODE-" urn="urn:adsk.eagle:component:7189492/11" prefix="D" uservalue="yes" library_version="14">
+<deviceset name="DIODE-" urn="urn:adsk.eagle:component:7189492/11" locally_modified="yes" prefix="D" uservalue="yes" library_version="14" library_locally_modified="yes">
 <description>Diode</description>
 <gates>
 <gate name="G$1" symbol="DIODE" x="0" y="0"/>
@@ -2734,6 +2806,9 @@ In this library the device names are the same as the pin names of the symbols, t
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="COST" value="0.02" constant="no"/>
+<attribute name="MFR" value="Tayda" constant="no"/>
+<attribute name="MPN" value="A-157" constant="no"/>
 <attribute name="VALUE" value="1N4148" constant="no"/>
 </technology>
 </technologies>
@@ -2963,7 +3038,7 @@ RA = Right Angle&lt;p&gt;
 <library name="con-usb" urn="urn:adsk.eagle:library:4203715">
 <description>General USB Connectors</description>
 <packages>
-<package name="JAE-DX4R005" urn="urn:adsk.eagle:footprint:4203716/3" library_version="12" library_locally_modified="yes">
+<package name="JAE-DX4R005" urn="urn:adsk.eagle:footprint:4203716/3" locally_modified="yes" library_version="12" library_locally_modified="yes">
 <description>JAE USB Receptacle</description>
 <wire x1="-1.5" y1="4.8" x2="-1.1" y2="4.8" width="0.05" layer="51"/>
 <wire x1="-0.85" y1="4.8" x2="-0.45" y2="4.8" width="0.05" layer="51"/>
@@ -3000,10 +3075,10 @@ RA = Right Angle&lt;p&gt;
 <wire x1="3.7" y1="0.7" x2="3.7" y2="0.3" width="0.4064" layer="21"/>
 <pad name="MTG1" x="-3.5" y="1.95" drill="0.5" shape="octagon"/>
 <pad name="MTG2" x="3.5" y="1.95" drill="0.5" shape="octagon"/>
-<pad name="MTG3" x="-2.65" y="4.85" drill="0.5"/>
-<pad name="MTG4" x="2.65" y="4.85" drill="0.5"/>
-<pad name="MTG5" x="-2.35" y="4.85" drill="0.5"/>
-<pad name="MTG6" x="2.35" y="4.85" drill="0.5"/>
+<pad name="MTG3" x="-2.7008" y="4.85" drill="0.5"/>
+<pad name="MTG4" x="2.7008" y="4.85" drill="0.5"/>
+<pad name="MTG5" x="-2.2992" y="4.85" drill="0.5"/>
+<pad name="MTG6" x="2.2992" y="4.85" drill="0.5"/>
 <pad name="MTG7" x="-3.5" y="2.3" drill="0.5" shape="octagon"/>
 <pad name="MTG8" x="-3.5" y="1.6" drill="0.5" shape="octagon"/>
 <pad name="MTG9" x="3.5" y="2.3" drill="0.5" shape="octagon"/>
@@ -3141,7 +3216,7 @@ RA = Right Angle&lt;p&gt;
 <library name="con-headers" urn="urn:adsk.eagle:library:5539071">
 <description>Pin Headers,  0.1", 0.05", and metric</description>
 <packages>
-<package name="MA03X1" urn="urn:adsk.eagle:footprint:7887257/1" locally_modified="yes" library_version="22" library_locally_modified="yes">
+<package name="MA03X1-VT-THD" urn="urn:adsk.eagle:footprint:7887257/2" library_version="26" library_locally_modified="yes">
 <description>Male header 3 pin, 1 row</description>
 <wire x1="-1.27" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
 <wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
@@ -3191,7 +3266,7 @@ RA = Right Angle&lt;p&gt;
 <rectangle x1="-4.064" y1="-2.286" x2="-1.778" y2="-2.032" layer="21"/>
 <rectangle x1="-4.064" y1="-2.286" x2="-3.6068" y2="2.286" layer="21"/>
 </package>
-<package name="MA03X1-RA" urn="urn:adsk.eagle:footprint:8034020/1" library_version="22" library_locally_modified="yes">
+<package name="MA03X1-RA-THD" urn="urn:adsk.eagle:footprint:8034020/2" library_version="26" library_locally_modified="yes">
 <description>Header 0.1" Male, Right Angle, 3P</description>
 <wire x1="3.81" y1="-1.016" x2="3.81" y2="1.778" width="0.1524" layer="21"/>
 <wire x1="-1.27" y1="-1.016" x2="-1.27" y2="1.778" width="0.1524" layer="51"/>
@@ -3219,10 +3294,10 @@ RA = Right Angle&lt;p&gt;
 </package>
 </packages>
 <packages3d>
-<package3d name="MA03X1" urn="urn:adsk.eagle:package:7887260/1" type="box" library_version="22" library_locally_modified="yes">
+<package3d name="MA03X1" urn="urn:adsk.eagle:package:7887260/3" type="model" library_version="26" library_locally_modified="yes">
 <description>Male header 3 pin, 1 row</description>
 <packageinstances>
-<packageinstance name="MA03X1"/>
+<packageinstance name="MA03X1-VT-THD"/>
 </packageinstances>
 </package3d>
 <package3d name="MA03X1-EDGE-2.54MM" urn="urn:adsk.eagle:package:7887259/3" type="box" library_version="22" library_locally_modified="yes">
@@ -3231,10 +3306,10 @@ RA = Right Angle&lt;p&gt;
 <packageinstance name="MA03X1-EDGE-2.54MM"/>
 </packageinstances>
 </package3d>
-<package3d name="MA03X1-RA" urn="urn:adsk.eagle:package:8034026/1" type="box" library_version="22" library_locally_modified="yes">
+<package3d name="MA03X1-RA" urn="urn:adsk.eagle:package:8034026/3" type="model" library_version="26" library_locally_modified="yes">
 <description>Header 0.1" Male, Right Angle, 3P</description>
 <packageinstances>
-<packageinstance name="MA03X1-RA"/>
+<packageinstance name="MA03X1-RA-THD"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -3257,20 +3332,20 @@ RA = Right Angle&lt;p&gt;
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CON_03X1" urn="urn:adsk.eagle:component:7887261/4" prefix="J" uservalue="yes" library_version="22" library_locally_modified="yes">
+<deviceset name="CON_03X1" urn="urn:adsk.eagle:component:7887261/6" prefix="J" uservalue="yes" library_version="26" library_locally_modified="yes">
 <description>Header, 3-pin, single row</description>
 <gates>
 <gate name="G$1" symbol="CON_03X1" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-2.54MM-THD-VT" package="MA03X1">
+<device name="-2.54MM-THD-VT" package="MA03X1-VT-THD">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="3"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:7887260/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7887260/3"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -3293,14 +3368,14 @@ RA = Right Angle&lt;p&gt;
 </technology>
 </technologies>
 </device>
-<device name="-2.54MM-THD-RA" package="MA03X1-RA">
+<device name="-2.54MM-THD-RA" package="MA03X1-RA-THD">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="3"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:8034026/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:8034026/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -3322,7 +3397,7 @@ RA = Right Angle&lt;p&gt;
 <parts>
 <part name="U$1" library="frames-custom" library_urn="urn:adsk.eagle:library:11820551" deviceset="LETTER_L-CIRCUITMONKEY" device="">
 <attribute name="DOCUMENT_NUMBER" value="Stepped Tone Generator with 4-step Sequencer"/>
-<attribute name="REV" value="A"/>
+<attribute name="REV" value="B"/>
 </part>
 <part name="U2" library="logic" library_urn="urn:adsk.eagle:library:8032508" deviceset="556" device="PDIP" package3d_urn="urn:adsk.eagle:package:8032593/4" value="NE556N">
 <attribute name="SPICEPREFIX" value="X"/>
@@ -3341,8 +3416,8 @@ RA = Right Angle&lt;p&gt;
 <part name="SUPPLY9" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="R3" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="THD_0.25_WATT" package3d_urn="urn:adsk.eagle:package:26222947/3" value="1K"/>
 <part name="SUPPLY10" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="VCC" device=""/>
-<part name="C1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="THD_5MM" package3d_urn="urn:adsk.eagle:package:4192947/2" value="10nF"/>
-<part name="C2" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="THD_5MM" package3d_urn="urn:adsk.eagle:package:4192947/2" value="10nF"/>
+<part name="C1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="THD_5MM" package3d_urn="urn:adsk.eagle:package:4192947/2" value="0.01uF"/>
+<part name="C2" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="THD_5MM" package3d_urn="urn:adsk.eagle:package:4192947/2" value="0.01uF"/>
 <part name="SUPPLY11" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="SUPPLY12" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="SUPPLY13" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
@@ -3368,23 +3443,23 @@ RA = Right Angle&lt;p&gt;
 <part name="PWR" library="con-usb" library_urn="urn:adsk.eagle:library:4203715" deviceset="USB-B-MICRO-SMT" device="JAE-DX4R005" package3d_urn="urn:adsk.eagle:package:4203722/5" value="USB Micro-B"/>
 <part name="SUPPLY21" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="SUPPLY22" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
-<part name="PWR_AUX" library="con-headers" library_urn="urn:adsk.eagle:library:5539071" deviceset="CON_03X1" device="-2.54MM-THD-VT" package3d_urn="urn:adsk.eagle:package:7887260/1" value="3P, Male, Breakaway, 2.54mm"/>
+<part name="PWR_AUX" library="con-headers" library_urn="urn:adsk.eagle:library:5539071" deviceset="CON_03X1" device="-2.54MM-THD-VT" package3d_urn="urn:adsk.eagle:package:7887260/3" value="3P, Male, Breakaway, 2.54mm"/>
 <part name="SUPPLY25" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
-<part name="C4" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="THD_5MM" package3d_urn="urn:adsk.eagle:package:4192947/2" value="1uF"/>
+<part name="C4" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="THD_5MM" package3d_urn="urn:adsk.eagle:package:4192947/2" value="0.01uF"/>
 <part name="C3" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="THD_5MM" package3d_urn="urn:adsk.eagle:package:4192947/2" value="10uF"/>
 <part name="SUPPLY20" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="VCC" device=""/>
 <part name="R5" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="THD_0.25_WATT" package3d_urn="urn:adsk.eagle:package:26222947/3" value="1K"/>
 <part name="R6" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="THD_0.25_WATT" package3d_urn="urn:adsk.eagle:package:26222947/3" value="1K"/>
 <part name="R7" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="THD_0.25_WATT" package3d_urn="urn:adsk.eagle:package:26222947/3" value="1K"/>
 <part name="SUPPLY23" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="VCC" device=""/>
-<part name="VOLUME" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="POT" device="RK09?113" package3d_urn="urn:adsk.eagle:package:9396884/2" value="10K"/>
-<part name="TONE1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="POT" device="RK09?113" package3d_urn="urn:adsk.eagle:package:9396884/2" value="500K"/>
-<part name="TONE2" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="POT" device="RK09?113" package3d_urn="urn:adsk.eagle:package:9396884/2" value="500K"/>
-<part name="SPEED" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="POT" device="RK09?113" package3d_urn="urn:adsk.eagle:package:9396884/2" value="500K"/>
-<part name="TRIM1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="POT" device="RK09?113" package3d_urn="urn:adsk.eagle:package:9396884/2" value="100K"/>
-<part name="TRIM2" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="POT" device="RK09?113" package3d_urn="urn:adsk.eagle:package:9396884/2" value="100K"/>
-<part name="TRIM3" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="POT" device="RK09?113" package3d_urn="urn:adsk.eagle:package:9396884/2" value="100K"/>
-<part name="TRIM4" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="POT" device="RK09?113" package3d_urn="urn:adsk.eagle:package:9396884/2" value="100K"/>
+<part name="VOLUME" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="POT" device="RK09?113" package3d_urn="urn:adsk.eagle:package:9396884/3" value="1K LOG"/>
+<part name="TONE1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="POT" device="RK09?113" package3d_urn="urn:adsk.eagle:package:9396884/3" value="500K"/>
+<part name="TONE2" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="POT" device="RK09?113" package3d_urn="urn:adsk.eagle:package:9396884/3" value="500K"/>
+<part name="SPEED" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="POT" device="RK09?113" package3d_urn="urn:adsk.eagle:package:9396884/3" value="500K"/>
+<part name="TRIM1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="POT" device="RK09?113" package3d_urn="urn:adsk.eagle:package:9396884/3" value="100K"/>
+<part name="TRIM2" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="POT" device="RK09?113" package3d_urn="urn:adsk.eagle:package:9396884/3" value="100K"/>
+<part name="TRIM3" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="POT" device="RK09?113" package3d_urn="urn:adsk.eagle:package:9396884/3" value="100K"/>
+<part name="TRIM4" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="POT" device="RK09?113" package3d_urn="urn:adsk.eagle:package:9396884/3" value="100K"/>
 </parts>
 <sheets>
 <sheet>
