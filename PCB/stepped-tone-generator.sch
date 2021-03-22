@@ -3456,10 +3456,10 @@ RA = Right Angle&lt;p&gt;
 <part name="TONE1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="POT" device="RK09?113" package3d_urn="urn:adsk.eagle:package:9396884/3" value="500K"/>
 <part name="TONE2" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="POT" device="RK09?113" package3d_urn="urn:adsk.eagle:package:9396884/3" value="500K"/>
 <part name="SPEED" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="POT" device="RK09?113" package3d_urn="urn:adsk.eagle:package:9396884/3" value="500K"/>
-<part name="TRIM1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="POT" device="RK09?113" package3d_urn="urn:adsk.eagle:package:9396884/3" value="100K"/>
-<part name="TRIM2" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="POT" device="RK09?113" package3d_urn="urn:adsk.eagle:package:9396884/3" value="100K"/>
-<part name="TRIM3" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="POT" device="RK09?113" package3d_urn="urn:adsk.eagle:package:9396884/3" value="100K"/>
-<part name="TRIM4" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="POT" device="RK09?113" package3d_urn="urn:adsk.eagle:package:9396884/3" value="100K"/>
+<part name="STEP1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="POT" device="RK09?113" package3d_urn="urn:adsk.eagle:package:9396884/3" value="100K"/>
+<part name="STEP2" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="POT" device="RK09?113" package3d_urn="urn:adsk.eagle:package:9396884/3" value="100K"/>
+<part name="STEP3" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="POT" device="RK09?113" package3d_urn="urn:adsk.eagle:package:9396884/3" value="100K"/>
+<part name="STEP4" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="POT" device="RK09?113" package3d_urn="urn:adsk.eagle:package:9396884/3" value="100K"/>
 </parts>
 <sheets>
 <sheet>
@@ -3678,19 +3678,19 @@ happen.  Voltage range 5-9 volts.</text>
 <attribute name="NAME" x="100.584" y="50.927" size="1.778" layer="95" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="98.933" y="50.927" size="1.016" layer="96" rot="R270" align="center"/>
 </instance>
-<instance part="TRIM1" gate="POT" x="104.14" y="165.1" smashed="yes" rot="R90">
+<instance part="STEP1" gate="POT" x="104.14" y="165.1" smashed="yes" rot="R90">
 <attribute name="NAME" x="100.076" y="164.973" size="1.778" layer="95" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="101.727" y="164.973" size="1.016" layer="96" rot="R90" align="center"/>
 </instance>
-<instance part="TRIM2" gate="POT" x="104.14" y="144.78" smashed="yes" rot="R90">
+<instance part="STEP2" gate="POT" x="104.14" y="144.78" smashed="yes" rot="R90">
 <attribute name="NAME" x="100.076" y="144.653" size="1.778" layer="95" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="101.727" y="144.653" size="1.016" layer="96" rot="R90" align="center"/>
 </instance>
-<instance part="TRIM3" gate="POT" x="104.14" y="124.46" smashed="yes" rot="R90">
+<instance part="STEP3" gate="POT" x="104.14" y="124.46" smashed="yes" rot="R90">
 <attribute name="NAME" x="100.076" y="124.333" size="1.778" layer="95" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="101.727" y="124.333" size="1.016" layer="96" rot="R90" align="center"/>
 </instance>
-<instance part="TRIM4" gate="POT" x="104.14" y="104.14" smashed="yes" rot="R90">
+<instance part="STEP4" gate="POT" x="104.14" y="104.14" smashed="yes" rot="R90">
 <attribute name="NAME" x="100.076" y="104.013" size="1.778" layer="95" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="101.727" y="104.013" size="1.016" layer="96" rot="R90" align="center"/>
 </instance>
@@ -3804,22 +3804,22 @@ happen.  Voltage range 5-9 volts.</text>
 <pinref part="C4" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="TRIM1" gate="POT" pin="1"/>
+<pinref part="STEP1" gate="POT" pin="1"/>
 <pinref part="SUPPLY14" gate="GND" pin="GND"/>
 <wire x1="104.14" y1="160.02" x2="104.14" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="TRIM2" gate="POT" pin="1"/>
+<pinref part="STEP2" gate="POT" pin="1"/>
 <pinref part="SUPPLY16" gate="GND" pin="GND"/>
 <wire x1="104.14" y1="139.7" x2="104.14" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="TRIM3" gate="POT" pin="1"/>
+<pinref part="STEP3" gate="POT" pin="1"/>
 <pinref part="SUPPLY17" gate="GND" pin="GND"/>
 <wire x1="104.14" y1="119.38" x2="104.14" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="TRIM4" gate="POT" pin="1"/>
+<pinref part="STEP4" gate="POT" pin="1"/>
 <pinref part="SUPPLY18" gate="GND" pin="GND"/>
 <wire x1="104.14" y1="99.06" x2="104.14" y2="96.52" width="0.1524" layer="91"/>
 </segment>
@@ -3858,7 +3858,7 @@ happen.  Voltage range 5-9 volts.</text>
 <wire x1="76.2" y1="152.4" x2="86.36" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="170.18" x2="88.9" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="LED1" gate="G$1" pin="A"/>
-<pinref part="TRIM1" gate="POT" pin="3"/>
+<pinref part="STEP1" gate="POT" pin="3"/>
 <wire x1="88.9" y1="170.18" x2="104.14" y2="170.18" width="0.1524" layer="91"/>
 <junction x="88.9" y="170.18"/>
 </segment>
@@ -3868,7 +3868,7 @@ happen.  Voltage range 5-9 volts.</text>
 <pinref part="U3" gate="G$1" pin="OUT1"/>
 <wire x1="55.88" y1="149.86" x2="88.9" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="LED2" gate="G$1" pin="A"/>
-<pinref part="TRIM2" gate="POT" pin="3"/>
+<pinref part="STEP2" gate="POT" pin="3"/>
 <wire x1="88.9" y1="149.86" x2="104.14" y2="149.86" width="0.1524" layer="91"/>
 <junction x="88.9" y="149.86"/>
 </segment>
@@ -3880,7 +3880,7 @@ happen.  Voltage range 5-9 volts.</text>
 <wire x1="76.2" y1="147.32" x2="83.82" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="129.54" x2="88.9" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="LED3" gate="G$1" pin="A"/>
-<pinref part="TRIM3" gate="POT" pin="3"/>
+<pinref part="STEP3" gate="POT" pin="3"/>
 <wire x1="88.9" y1="129.54" x2="104.14" y2="129.54" width="0.1524" layer="91"/>
 <junction x="88.9" y="129.54"/>
 </segment>
@@ -3892,7 +3892,7 @@ happen.  Voltage range 5-9 volts.</text>
 <wire x1="73.66" y1="144.78" x2="81.28" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="109.22" x2="88.9" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="LED4" gate="G$1" pin="A"/>
-<pinref part="TRIM4" gate="POT" pin="3"/>
+<pinref part="STEP4" gate="POT" pin="3"/>
 <wire x1="88.9" y1="109.22" x2="104.14" y2="109.22" width="0.1524" layer="91"/>
 <junction x="88.9" y="109.22"/>
 </segment>
@@ -4005,28 +4005,28 @@ happen.  Voltage range 5-9 volts.</text>
 <segment>
 <pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="111.76" y1="165.1" x2="109.22" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="TRIM1" gate="POT" pin="2"/>
+<pinref part="STEP1" gate="POT" pin="2"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
 <pinref part="D2" gate="G$1" pin="A"/>
 <wire x1="111.76" y1="144.78" x2="109.22" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="TRIM2" gate="POT" pin="2"/>
+<pinref part="STEP2" gate="POT" pin="2"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
 <pinref part="D3" gate="G$1" pin="A"/>
 <wire x1="111.76" y1="124.46" x2="109.22" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="TRIM3" gate="POT" pin="2"/>
+<pinref part="STEP3" gate="POT" pin="2"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
 <pinref part="D4" gate="G$1" pin="A"/>
 <wire x1="111.76" y1="104.14" x2="109.22" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="TRIM4" gate="POT" pin="2"/>
+<pinref part="STEP4" gate="POT" pin="2"/>
 </segment>
 </net>
 <net name="N$20" class="0">
