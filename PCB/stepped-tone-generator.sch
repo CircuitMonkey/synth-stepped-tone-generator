@@ -1566,7 +1566,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <rectangle x1="-1.524" y1="-1.27" x2="-0.762" y2="1.27" layer="51"/>
 <rectangle x1="0.762" y1="-1.27" x2="1.524" y2="1.27" layer="51"/>
 </package>
-<package name="CAP_CER_THD_5MM" urn="urn:adsk.eagle:footprint:4192936/1" library_version="22">
+<package name="CAP_CER_THD_5MM" urn="urn:adsk.eagle:footprint:4192936/1" locally_modified="yes" library_version="35" library_locally_modified="yes">
 <description>Capacitor, Caramic, THD</description>
 <pad name="1" x="-2.54" y="0" drill="0.8" shape="square"/>
 <pad name="2" x="2.54" y="0" drill="0.8"/>
@@ -1574,8 +1574,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="3.556" y1="1.016" x2="3.556" y2="-1.016" width="0.127" layer="21"/>
 <wire x1="3.556" y1="-1.016" x2="-3.556" y2="-1.016" width="0.127" layer="21"/>
 <wire x1="-3.556" y1="-1.016" x2="-3.556" y2="1.016" width="0.127" layer="21"/>
-<text x="0" y="0" size="0.6096" layer="27" align="center">&gt;VALUE</text>
+<text x="0" y="-1.524" size="0.6096" layer="27" align="center">&gt;VALUE</text>
 <text x="0" y="2.032" size="1.27" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="0" y="0" size="0.762" layer="21" align="center">&gt;VALUE</text>
 </package>
 <package name="CAP_CER_THD_2.5MM" urn="urn:adsk.eagle:footprint:4192937/1" library_version="22">
 <description>Capacitor, Ceramic Disc, 2.5mm lead spacing.</description>
@@ -1837,7 +1838,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <packageinstance name="1210-CAP"/>
 </packageinstances>
 </package3d>
-<package3d name="CAP_CER_THD_5MM" urn="urn:adsk.eagle:package:4192947/2" type="model" library_version="27">
+<package3d name="CAP_CER_THD_5MM" urn="urn:adsk.eagle:package:4192947/2" type="model" library_version="35" library_locally_modified="yes">
 <description>Capacitor, Caramic, THD</description>
 <packageinstances>
 <packageinstance name="CAP_CER_THD_5MM"/>
@@ -3445,7 +3446,7 @@ RA = Right Angle&lt;p&gt;
 <part name="SUPPLY22" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
 <part name="PWR_AUX" library="con-headers" library_urn="urn:adsk.eagle:library:5539071" deviceset="CON_03X1" device="-2.54MM-THD-VT" package3d_urn="urn:adsk.eagle:package:7887260/3" value="3P, Male, Breakaway, 2.54mm"/>
 <part name="SUPPLY25" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
-<part name="C4" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="THD_5MM" package3d_urn="urn:adsk.eagle:package:4192947/2" value="0.01uF"/>
+<part name="C4" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="THD_5MM" package3d_urn="urn:adsk.eagle:package:4192947/2" value="1uF"/>
 <part name="C3" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="THD_5MM" package3d_urn="urn:adsk.eagle:package:4192947/2" value="10uF"/>
 <part name="SUPPLY20" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="VCC" device=""/>
 <part name="R5" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="RESISTOR" device="THD_0.25_WATT" package3d_urn="urn:adsk.eagle:package:26222947/3" value="1K"/>
@@ -3472,6 +3473,7 @@ taintpaul.</text>
 higher voltage from PWR_AUX.  Never
 connect both sources, smoke might 
 happen.  Voltage range 5-9 volts.</text>
+<text x="234.188" y="6.858" size="5.588" layer="97" ratio="15" align="bottom-right">0109</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -3479,7 +3481,7 @@ happen.  Voltage range 5-9 volts.</text>
 <attribute name="LAST_DATE_TIME" x="160.02" y="1.27" size="2.54" layer="94" font="vector"/>
 <attribute name="SHEET" x="233.68" y="1.27" size="2.54" layer="94" font="vector"/>
 <attribute name="DRAWING_NAME" x="91.44" y="1.27" size="2.54" layer="94" font="vector" ratio="15"/>
-<attribute name="DOCUMENT_NUMBER" x="154.94" y="6.096" size="2.54" layer="94" ratio="15"/>
+<attribute name="DOCUMENT_NUMBER" x="149.86" y="6.096" size="2.032" layer="94" ratio="15"/>
 <attribute name="REV" x="241.808" y="8.382" size="3.81" layer="94" ratio="15" align="center"/>
 </instance>
 <instance part="U2" gate="G$1" x="175.26" y="116.84" smashed="yes">
@@ -3674,9 +3676,9 @@ happen.  Voltage range 5-9 volts.</text>
 <attribute name="NAME" x="245.364" y="155.067" size="1.778" layer="95" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="243.713" y="155.067" size="1.016" layer="96" rot="R270" align="center"/>
 </instance>
-<instance part="SPEED" gate="POT" x="96.52" y="50.8" smashed="yes" rot="R270">
-<attribute name="NAME" x="100.584" y="50.927" size="1.778" layer="95" ratio="15" rot="R270" align="center"/>
-<attribute name="VALUE" x="98.933" y="50.927" size="1.016" layer="96" rot="R270" align="center"/>
+<instance part="SPEED" gate="POT" x="96.52" y="50.8" smashed="yes" rot="MR90">
+<attribute name="NAME" x="100.584" y="50.673" size="1.778" layer="95" ratio="15" rot="MR90" align="center"/>
+<attribute name="VALUE" x="98.933" y="50.673" size="1.016" layer="96" rot="MR90" align="center"/>
 </instance>
 <instance part="STEP1" gate="POT" x="104.14" y="165.1" smashed="yes" rot="R90">
 <attribute name="NAME" x="100.076" y="164.973" size="1.778" layer="95" ratio="15" rot="R90" align="center"/>
@@ -4100,13 +4102,6 @@ happen.  Voltage range 5-9 volts.</text>
 <pinref part="TONE2" gate="POT" pin="2"/>
 </segment>
 </net>
-<net name="N$22" class="0">
-<segment>
-<wire x1="96.52" y1="55.88" x2="96.52" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="1"/>
-<pinref part="SPEED" gate="POT" pin="1"/>
-</segment>
-</net>
 <net name="N$24" class="0">
 <segment>
 <pinref part="VOLUME" gate="POT" pin="3"/>
@@ -4114,6 +4109,13 @@ happen.  Voltage range 5-9 volts.</text>
 <wire x1="231.14" y1="119.38" x2="231.14" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="SPEAKER" gate="G$1" pin="2"/>
 <wire x1="231.14" y1="129.54" x2="233.68" y2="129.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$22" class="0">
+<segment>
+<pinref part="SPEED" gate="POT" pin="3"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="96.52" y1="55.88" x2="96.52" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
